@@ -39,3 +39,9 @@ c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNe
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\obj\Debug\AspNetIdentity.Migrations.InitialCreate.resources
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\obj\Debug\AspNetIdentity.csproj.GenerateResource.Cache
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\SendGrid.CSharp.HTTP.Client.dll
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\Thinktecture.IdentityModel.Core.dll
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\Thinktecture.IdentityModel.Core.pdb
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\Microsoft.Owin.Security.Jwt.dll
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\Microsoft.Owin.Security.Jwt.xml
