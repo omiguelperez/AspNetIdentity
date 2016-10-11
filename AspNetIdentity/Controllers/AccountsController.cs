@@ -106,5 +106,47 @@ namespace AspNetIdentity.Controllers
             }
         }
 
+        [Route("ChangePassword")]
+        public async Task<IHttpActionResult> ChangePassword(ChangePasswordBindingModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            IdentityResult result = await this.AppUserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword, model.NewPassword);
+
+            if (!result.Succeeded)
+            {
+                return GetErrorResult(result);
+            }
+
+            return Ok();
+        }
+
+        [Route("user/{id:guid}")]
+        public async Task<IHttpActionResult> DeleteUser(string id)
+        {
+
+            //Only SuperAdmin or Admin can delete users (Later when implement roles)
+
+            var appUser = await this.AppUserManager.FindByIdAsync(id);
+
+            if (appUser != null)
+            {
+                IdentityResult result = await this.AppUserManager.DeleteAsync(appUser);
+
+                if (!result.Succeeded)
+                {
+                    return GetErrorResult(result);
+                }
+
+                return Ok();
+
+            }
+
+            return NotFound();
+
+        }
     }
 }

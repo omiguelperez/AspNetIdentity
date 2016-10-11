@@ -156,6 +156,7 @@
       <DependentUpon>201610110225110_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ChangePasswordBindingModel.cs" />
     <Compile Include="Models\CreateUserBindingModel.cs" />
     <Compile Include="Models\ModelFactory.cs" />
     <Compile Include="Models\UserReturnModel.cs" />
