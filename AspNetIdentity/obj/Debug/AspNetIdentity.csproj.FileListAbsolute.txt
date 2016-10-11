@@ -38,3 +38,4 @@ c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNe
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\obj\Debug\AspNetIdentity.pdb
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\obj\Debug\AspNetIdentity.Migrations.InitialCreate.resources
 c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\obj\Debug\AspNetIdentity.csproj.GenerateResource.Cache
+c:\users\omiguelperez\documents\visual studio 2013\Projects\AspNetIdentity\AspNetIdentity\bin\SendGrid.CSharp.HTTP.Client.dll
